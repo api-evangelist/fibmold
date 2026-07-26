@@ -1,7 +1,26 @@
 aid: fibmold
 name: Fibmold
-description: 'Fibmold is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Fibmold is an eco-friendly molded-fiber packaging manufacturer building sustainable,
+  plastic-free alternatives to rigid single-use plastic packaging. Its products are thermoformed
+  from natural fibres such as bagasse, bamboo, and hard/soft wood pulp collected from farms,
+  forests, and agro-processing units, then upcycled into compostable and recyclable packaging.
+  Applications span food-service packaging, customised industrial solutions, fibre-based dosing
+  scoops, aviation casseroles, cosmetic inserts, pharma injectable trays, chocolate trays, and
+  noodle cups. Fibmold also runs the Primo by Fibmold retail storefront and builds manufacturing
+  eco-systems and material-science innovation to scale sustainable packaging on the supply side.
+  Backed by Accel.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66f2c75a196026d965ac4d78/671b2644a607a9874811ba1b_Webclip.png
 url: https://raw.githubusercontent.com/api-evangelist/fibmold/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Packaging
+- Sustainability
+- Molded Fiber
+- Manufacturing
+- Compostable
+- Food Service
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +48,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.fibmold.com
+  url: https://www.fibmold.com
+- type: About
+  url: https://www.fibmold.com/about
+- type: Blog
+  url: https://www.fibmold.com/blog
+- type: Support
+  url: https://www.fibmold.com/contact
+- type: PrivacyPolicy
+  url: https://www.fibmold.com/privacy
+- type: TermsOfService
+  url: https://www.fibmold.com/terms
+- type: Store
+  url: https://primopack.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/fibmold/
+- type: YouTube
+  url: https://www.youtube.com/@fibmold
+- type: Instagram
+  url: https://www.instagram.com/primo_byfibmold/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
