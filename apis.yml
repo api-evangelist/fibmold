@@ -9,6 +9,17 @@ description: 'Fibmold is an eco-friendly molded-fiber packaging manufacturer bui
   noodle cups. Fibmold also runs the Primo by Fibmold retail storefront and builds manufacturing
   eco-systems and material-science innovation to scale sustainable packaging on the supply side.
   Backed by Accel.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
